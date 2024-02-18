@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <!-- css files -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- start header -->
+    <header>
+        <div class="top">
+            <a href="#" class="logo">Hotolo</a>
+            <a href="#availability" class="but">Check Availability</a>
+            <div class="fas fa-bars" id="menu-but"></div>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#reservation">Reservation</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+            <a href="#review">Review</a>
+        </nav>
+    </header>
+    <!-- end header -->
+    <!-- start home -->
+    <section class="home">
+        <div class="home-slider swiper">
+            <div class="swiper-wrapper">
+                <div class="box swiper-slide">
+                    <img src="images/home-01.jpg" alt="">
+                    <div class="content">
+                        <h3>Luxurious Rooms</h3>
+                        <a href="#availability" class="but">Check Availability</a>
+                    </div>
+                </div>
+                <div class="box swiper-slide">
+                    <img src="images/home-02.jpg" alt="">
+                    <div class="content">
+                        <h3>Food and Drinks</h3>
+                        <a href="#reservation" class="but">Make a Reservation</a>
+                    </div>
+                </div>
+                <div class="box swiper-slide">
+                    <img src="images/home-03.jpg" alt="">
+                    <div class="content">
+                        <h3>Luxurious Halls</h3>
+                        <a href="#contact" class="but">Contact us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <!-- end home -->
+    <!-- start availability -->
+    <section id="availability">
+        <form action="" method="post">
+            <div class="container">
+                <div class="box">
+                    <p>Check in <span>*</span></p>
+                    <input type="date" class="input" required>
+                </div>
+                <div class="box">
+                    <p>Check out <span>*</span></p>
+                    <input type="date" class="input" required>
+                </div>
+                <div class="box">
+                    <p>Adults <span>*</span></p>
+                    <select class="input" required>
+                        <option value="1">1 adult</option>
+                        <option value="2">2 adults</option>
+                        <option value="3">3 adults</option>
+                        <option value="4">4 adults</option>
+                        <option value="5">5 adults</option>
+                        <option value="6">6 adults</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <p>Childs <span>*</span></p>
+                    <select class="input" required>
+                        <option value="0">0 child</option>
+                        <option value="1">1 childs</option>
+                        <option value="2">2 childs</option>
+                        <option value="3">3 childs</option>
+                        <option value="4">4 childs</option>
+                        <option value="5">5 childs</option>
+                        <option value="6">6 childs</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <p>Rooms <span>*</span></p>
+                    <select class="input" required>
+                        <option value="1">1 room</option>
+                        <option value="2">2 rooms</option>
+                        <option value="3">3 rooms</option>
+                        <option value="4">4 rooms</option>
+                        <option value="5">5 rooms</option>
+                        <option value="6">6 rooms</option>
+                    </select>
+                </div>
+            </div>
+            <input type="submit" value="Check Availability" class="but">
+        </form>
+    </section>
+    <!-- end availability -->
+    <!-- start about -->
+    <section id="about">
+        <div class="row">
+            <div class="image">
+                <img src="images/about-01.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Best Staff</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, facere. Minus iste non, odio 
+                    unde quis magnam doloribus velit perferendis?</p>
+                <a href="#reservation" class="but">Make a Reservation</a>
+            </div>
+        </div>
+        <div class="row reverse">
+            <div class="image">
+                <img src="images/about-02.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Best Foods</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, facere. Minus iste non, odio 
+                    unde quis magnam doloribus velit perferendis?</p>
+                <a href="#contact" class="but">Contact us</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="image">
+                <img src="images/about-03.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Swimming Pool</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, facere. Minus iste non, odio 
+                    unde quis magnam doloribus velit perferendis?</p>
+                <a href="#availability" class="but">Check Availability</a>
+            </div>
+        </div>
+    </section>
+    <!-- end about -->
+    <!-- start services -->
+    <section class="services">
+        <div class="container">
+            <div class="box">
+                <img src="images/ser-01.png" alt="">
+                <h3>Food & Drinks</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, quibusdam.</p>
+            </div>
+            <div class="box">
+                <img src="images/ser-02.png" alt="">
+                <h3>Outdoor Dinning</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, quibusdam.</p>
+            </div>
+            <div class="box">
+                <img src="images/ser-03.png" alt="">
+                <h3>Beach View</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, quibusdam.</p>
+            </div>
+            <div class="box">
+                <img src="images/ser-04.png" alt="">
+                <h3>Decorations</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, quibusdam.</p>
+            </div>
+            <div class="box">
+                <img src="images/ser-05.png" alt="">
+                <h3>Swimming Pool</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, quibusdam.</p>
+            </div>
+            <div class="box">
+                <img src="images/ser-06.png" alt="">
+                <h3>Resort Beach</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, quibusdam.</p>
+            </div>
+        </div>
+    </section>
+    <!-- end services -->
+    <!-- start services -->
+    <section id="reservation">
+        <form action="" method="post">
+            <h3>Make a Reservation</h3>
+            <div class="container">
+                <div class="box">
+                    <p>Check in <span>*</span></p>
+                    <input type="date" class="input" required>
+                </div>
+                <div class="box">
+                    <p>Check out <span>*</span></p>
+                    <input type="date" class="input" required>
+                </div>
+                <div class="box">
+                    <p>Adults <span>*</span></p>
+                    <select class="input" required>
+                        <option value="1">1 adult</option>
+                        <option value="2">2 adults</option>
+                        <option value="3">3 adults</option>
+                        <option value="4">4 adults</option>
+                        <option value="5">5 adults</option>
+                        <option value="6">6 adults</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <p>Childs <span>*</span></p>
+                    <select class="input" required>
+                        <option value="0">0 child</option>
+                        <option value="1">1 childs</option>
+                        <option value="2">2 childs</option>
+                        <option value="3">3 childs</option>
+                        <option value="4">4 childs</option>
+                        <option value="5">5 childs</option>
+                        <option value="6">6 childs</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <p>Rooms <span>*</span></p>
+                    <select class="input" required>
+                        <option value="1">1 room</option>
+                        <option value="2">2 rooms</option>
+                        <option value="3">3 rooms</option>
+                        <option value="4">4 rooms</option>
+                        <option value="5">5 rooms</option>
+                        <option value="6">6 rooms</option>
+                    </select>
+                </div>
+            </div>
+            <input type="submit" value="Check Availability" class="but">
+        </form>
+    </section>
+    <!-- end services -->
+    <!-- start gallery -->
+    <section id="gallery">
+        <div class="gallery-slider swiper">
+            <div class="swiper-wrapper">
+                <img src="images/g-01.jpg" class="swiper-slide" alt="">
+                <img src="images/g-02.jpg" class="swiper-slide" alt="">
+                <img src="images/g-03.jpg" class="swiper-slide" alt="">
+                <img src="images/g-04.jpg" class="swiper-slide" alt="">
+                <img src="images/g-05.jpg" class="swiper-slide" alt="">
+                <img src="images/g-06.jpg" class="swiper-slide" alt="">
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- end gallery -->
+    <!-- start contact -->
+    <section id="contact">
+        <div class="row">
+            <form action="" method="post">
+                <h3>Get in Touch</h3>
+                <input type="text" placeholder="enter your name" maxlength="40" required class="box">
+                <input type="email" placeholder="enter your email" maxlength="40" required class="box">
+                <input type="number" placeholder="enter your number" maxlength="11" required class="box">
+                <textarea placeholder="enter your message" maxlength="11" required class="box"></textarea>
+                <input type="submit" value="Send Message" class="but">
+            </form>
+            <div class="faq">
+                <h3>Frequently Asked Questions</h3>
+                <div class="box active">
+                    <h4>How to cancel ?</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum ab ad voluptate repellat 
+                        sit consectetur ipsa praesentium Rem.</p>
+                </div>
+                <div class="box">
+                    <h4>Is there any vacany ?</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum ab ad voluptate repellat 
+                        sit consectetur ipsa praesentium? Rem.</p>
+                </div>
+                <div class="box">
+                    <h4>What are payment methods ?</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum ab ad voluptate repellat 
+                        sit consectetur ipsa praesentium? Rem.</p>
+                </div>
+                <div class="box">
+                    <h4>How to claim coupons codes ?</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum ab ad voluptate repellat 
+                        sit consectetur ipsa praesentium? Rem.</p>
+                </div>
+                <div class="box">
+                    <h4>What are the age requirments ?</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum ab ad voluptate repellat 
+                        sit consectetur ipsa praesentium? Rem.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end contact -->
+    <!-- start review -->
+    <section id="review">
+        <div class="review-slider swiper">
+            <div class="swiper-wrapper">
+                <div class="box swiper-slide">
+                    <img src="images/user-01.jpg" alt="">
+                    <h3>Ma Eltawel</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab atque obcaecati blanditiis 
+                        incidunt quo nisi.</p>
+                </div>
+                <div class="box swiper-slide">
+                    <img src="images/user-02.jpg" alt="">
+                    <h3>Billie</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab atque obcaecati blanditiis 
+                        incidunt quo nisi.</p>
+                </div>
+                <div class="box swiper-slide">
+                    <img src="images/user-03.jpg" alt="">
+                    <h3>Bie</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab atque obcaecati blanditiis 
+                        incidunt quo nisi.</p>
+                </div>
+                <div class="box swiper-slide">
+                    <img src="images/user-04.jpg" alt="">
+                    <h3>Tarek Mo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab atque obcaecati blanditiis 
+                        incidunt quo nisi.</p>
+                </div>
+                <div class="box swiper-slide">
+                    <img src="images/user-05.jpg" alt="">
+                    <h3>Tata</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab atque obcaecati blanditiis 
+                        incidunt quo nisi.</p>
+                </div>
+                <div class="box swiper-slide">
+                    <img src="images/user-06.jpg" alt="">
+                    <h3>Nile</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab atque obcaecati blanditiis 
+                        incidunt quo nisi.</p>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- end review -->
+    <!-- start footer -->
+    <footer>
+        <div class="container">
+            <div class="box">
+                <a href="tel:01113911655"><i class="fas fa-phone"></i> +2011-1391-1655</a>
+                <a href="tel:0863849049"><i class="fas fa-phone"></i> +086-3849-049</a>
+                <a href="mailto:tata@mail.com"><i class="fas fa-envelope"></i> tata@mail.com</a>
+                <a href="#"><i class="fas fa-location-dot"></i> Giza, Egypt - 400204</a>
+            </div>
+            <div class="box">
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#reservation">Reservation</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+                <a href="#review">Review</a>
+            </div>
+            <div class="box">
+                <a href="#">Facebook <i class="fab fa-facebook"></i></a>
+                <a href="#">Twitter <i class="fab fa-twitter"></i></a>
+                <a href="#">Instagram <i class="fab fa-instagram"></i></a>
+                <a href="#">Linkedin <i class="fab fa-linkedin"></i></a>
+                <a href="#">Youtube <i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="develop">&copy;2024 Copyright by Developed by Ma Eltawel | all Rights Reserved</div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- javascript files -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
